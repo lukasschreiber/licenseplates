@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "licenseplates",
-    "slug": "licenseplates",
-    "version": "1.0.0",
+    "name": "Kennzeichen DE",
+    "slug": "kennzeichen_de",
+    "version": "1.0.1",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/adaptive-icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/adaptive-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,13 +21,20 @@
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 3,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/launcher-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.lukasschreiber.kennzeichen_de"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "220f781a-65d1-40bb-9c0e-59708cd67678"
+      }
     }
   }
 }
